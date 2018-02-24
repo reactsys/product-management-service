@@ -8,6 +8,7 @@ include_once '../config/database.php';
 include_once '../objects/product.php';
  
 // instantiate database and product object
+
 $database = new Database();
 $db = $database->getConnection();
  

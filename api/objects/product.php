@@ -12,7 +12,7 @@ class Product{
     public $category_name;
     public $created;
 
-    public function __constrcut($db){
+    public function __construct($db){
         $this->conn = $db;
     }
 

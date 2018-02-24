@@ -1,8 +1,8 @@
-DROP DATABASE customer_management_service;
+DROP DATABASE product_management_service;
 
-CREATE DATABASE customer_management_service;
+CREATE DATABASE product_management_service;
 
-USE customer_management_service;
+USE product_management_service;
 
 CREATE TABLE IF NOT EXISTS `categories` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
