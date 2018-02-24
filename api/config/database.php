@@ -1,7 +1,7 @@
 <?php 
 class Database{
     private $host = "localhost";
-    private $db_name = "customer_management_service";
+    private $db_name = "product_management_service";
     private $username = "root";
     private $password = "root";
     public $conn;
@@ -16,7 +16,5 @@ class Database{
         }
 
     }
-
-
 }
 ?>
